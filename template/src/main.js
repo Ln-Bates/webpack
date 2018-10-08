@@ -10,7 +10,7 @@ import Axios from 'axios';
 import router from './router';
 {{/router}}
 
-{{#vuex}}  //vuex为true的时候就会写入这些
+{{#vuex}}
 import store from  './store';
 {{/vuex}}
 
